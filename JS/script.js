@@ -1,0 +1,14 @@
+ const navLinks = document.getElementById("navLinks");
+ const fa =document.getElementByClass("fa")
+ const font =document.getElementByClass("font")
+ function showMenu(){
+    navLinks.style.right = "0";
+    
+ }
+
+ function hideMenu(){
+    navLinks.style.right = "-200px";
+   
+ }
+
+
